@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.11.4 on win32)" generated="2024-04-09T13:27:11.977040" rpa="false" schemaversion="5">
+<suite id="s1" name="Temp Test Suite" source="C:\Users\acer\Downloads\testautomationproject\temp_test_suite.robot">
+<test id="s1-t1" name="Open google.com with Chrome" line="5">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-04-09T13:27:12.438689" level="INFO">Opening browser 'Chrome' to base url 'https://google.com'.</msg>
+<arg>https://google.com</arg>
+<arg>Chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-04-09T13:27:12.438689" elapsed="5.690616"/>
+</kw>
+<status status="PASS" start="2024-04-09T13:27:12.437531" elapsed="5.694052"/>
+</test>
+<status status="PASS" start="2024-04-09T13:27:11.980072" elapsed="6.159357"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Temp Test Suite">Temp Test Suite</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
