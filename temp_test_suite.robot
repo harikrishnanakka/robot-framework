@@ -2,6 +2,7 @@
 Library  SeleniumLibrary
 
 *** Test Cases ***
-Open google.com with Chrome
-    Open Browser   https://google.com   Chrome
+Open google.com
+    Open Browser    browser=chrome
+    Go To    url=https://www.google.com
 
